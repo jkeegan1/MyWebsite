@@ -62,3 +62,14 @@ border-style: solid;
 .DLmode{
   text-align: right;
 }
+
+.dark{
+  background-color: #222;
+  color: #e6e6e6;
+}
+
+.awards{
+  text-align: center;
+font-size: 20px;
+border-style: solid;
+}
