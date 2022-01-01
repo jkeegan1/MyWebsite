@@ -43,12 +43,12 @@ img{
   float: left;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 2px;
   text-decoration: none;
   overflow: hidden;
   background-color: rgb(128, 126, 126);
   width: 100%;
-  height: 45px;
+  
 }
 
 /* styling for hovering over navbar element*/ 
@@ -88,4 +88,3 @@ img{
   
   align-content: center;
 }
-
