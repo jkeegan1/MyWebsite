@@ -3,7 +3,8 @@
 /* styling for my profile picture*/
 img{
     border-radius: 50%;
-    padding: 5px; 
+    padding: 30px; 
+    margin: 10px;
 }
 
 .ToDo{
