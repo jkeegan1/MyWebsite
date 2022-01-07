@@ -1,85 +1,131 @@
 <!DOCTYPE html> 
 <html>
 <head>
-  <body>
+<script src="script.js"> </script>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://kit.fontawesome.com/4bdd915dc5.js" crossorigin="anonymous"></script>
 </head>
+<body>
 <style>
 
 body{
-    background-color: #FBFCFC; 
+    background-color: #333333;
 }
 </style>
 
-<!-- navagation bar -->
-<div class="topnav" >
-  
-  <a class="active" href="Index.html">Home</a>
-  <a href="about.html">About Me</a>
-    <a href="contact.html">Contact Me</a>
-  <!-- target attriubte used for destination of opened tab, blank sends it to another tab-->
-  <a href= "https://www.linkedin.com/in/joshjkeegan" target= "_blank">LinkedIn</a>
-  <a href= "https://github.com/jkeegan1" target= "_blank"> Github</a> 
-   
-</div> 
- 
-<div>
+<div class="Icons">
+  <a href="https://www.linkedin.com/in/joshua-keegan-50b64a210/" target = "blank" class="fab fa-linkedin" title="LinkedIn" style="color: white;"></a>
+  <a href="https://github.com/jkeegan1" target = "blank" class ="fab fa-github" title="Github" style="color: white;"></a>
+  <a href="" class="far fa-file" title="Resume" style="color: white;"></a>
+  <!--<a class="fas fa-envelope-square" title="Email"></a>-->
+  </div>
 
-  <center><h1>This is the offical website of Joshua Keegan</h1></center> 
-
-  <!-- swap between light and dark mode-->
-<!--<body>
-  <div class= "DLmode" >
-<h3>Click the button to toggle between light and dark mode</h3>
-  <button onclick="myFunction()">Switch mode</button>
-   
-  <script>
-      function myFunction() {
-      var element = document.body;
-      element.classList.toggle("dark");
-      }
-  </script>
-</body>
+<div class= "Logo">
+  <img src="jk_logo-removebg.png" title="logo" style= width:100px;>
 </div>
-
-
+ 
 <title>Joshua Keegan Offical Website 2021</title>      
 <!-- Class for profile picture-->
  <div class="Pic">
-    <center> <img src = "Joshua Keegan_updated_pic.jpg" alt="profile picture" style= width:200px;  ></center>
-  </div>
+  <h1>Hi,<br> 
+    I'm Joshua Keegan</h1> 
+     <img src = "Joshua Keegan_updated_pic.jpg" alt="profile picture" style= width:200px;  >
+     <p>I am a <b>nerdy</b>, yet <b>passionate</b> Software Developer. <br> I like to challange myself to learn new technologies in my spare time.<br>
+      <a href="#Technology" style="text-decoration: none; color: white;" ><u><b>Click here</b></u> </a> to see what technologies I am familar with.<br>
+   Ohio born and raised </p>  
+    </div>
  
-  
-  <!-- Class containing personal information about me -->
- <center><div class="About" style="border: solid; ">
-  
-  <h4>Who is Joshua Keegan?</h4> 
-  <p>I am a nerdy, yet passionate Software Developer with a B.S. in Computer Science from Kent State University.  </p>  
-  <p>Ohio native, goal driven individual</p>
-  <button onclick="location.href = 'about.html';" id="myButton" class="float-left submit-button" >Click here to learn more about me! </button>
+<div id="Technology">
+  Here are some technologies that i am familar with
+  <li>HTML/CSS (shocker)</li>
+  <li>Python</li>
+  <li>C++/C#</li>
+  <li>SQL/MYSQL</li>
 </div>
+
+<div id= "Learning">
+  <h1>Technologies that I am currently learning...</h1>
+  <li>Javascript</li>
+  <li>Java</li>
+  </div>
+
+  <div id= "Planning">
+    <h1>Technologies that I plan on learning this year...</h1>
+    <li>vue.js</li>
+    <li>jQuery</li>
+    <li>React</li>
+    <li>AngularJS </li>
+    </div>
+  
+  <!-- div containing a list of all courses i completed at Kent State -->
+  <div class = "eduText"
+  <p> Kent State Graduate(2021) -Bachelor of Science in Computer Science</p>
+  <center> <img src= "kent.jpg"></center>          
+              
+  <H4>Here is a list of completed courses</H4>
+  <li>Algorithms</li>
+  <li>Big Data Analytics</li>
+  <li>Capstone Project</li>
+  <li>Computer Architecture</li>
+  <li>Computer Communication Networks</li>
+  <li>Computer Network Security</li>
+  <li>Data Mining Techniques</li>
+  <li>Data Structure/Abstractions Programming</li>
+  <li>Discrete Structure</li>
+  <li>Intro to Cryptology</li>
+  <li>Intro to Database Design</li>
+  <li>Human Interface Computing</li>
+  <li>Object-orietned Programming</li>
+  <li>Operating Systems</li>
+  <li>Procedural Programming</li>
+  <li>Programming Patterns</li>
+  <li>Structure of Programming Languages</li>
+  <li>Software Engineering</li>
+  <li>Web Programming</li>
+  <br>
+  </div>
+         
+  <!-- Div containing academic awards-->
+  <br><div class="awards">
+  <h4> Academic Awards  </h4>
+  <li>Achieved Dean's List (fall 2020)</li>
+  <li>Achieved President's List (spring 2021)</li>
+  <br>
+  </div>
+
+  <div class="interests"> 
+   <h1> Interests</h1>
+   <li>Programming &#128512</li>
+   <li>Fitness &#128170</li>
+   <li>Disc Golf/ Golf &#127948</li>
+   <li>Gaming &#127918</li>
+   <li>Go Karting &#127950</li>
+   <li>Hiking/Nature &#127795</li>
+   <li>Music &#127925</li>
+   <li>Football/Basketball &#127944 &#127936</li>   
+   </div>
+
 <!-- Motivation -->
 <div class= "Motivation">
   <h2> Motivation</h2>
 </div>
 
-
-
 <!-- to do list for this site-->
 <div class="ToDo">
 <h1>To do list</h1>
-<li>motivation</li>
-<li>contact</li>
-<li>projects</li>
-<strike><li>classes taken</li></strike>
+<li>Motivation</li>
+<li>Contact info</li>
+<li>Projects</li>
+<strike><li>Classes taken</li></strike>
 <li>Styling</li>
 <strike><li>Links to LinkedIn and Github</li></strike>
 <li>Add more info about myself/pictures</li>
 <li>Add icons to navbar</li>
-<li>Save user's preference</li>
+<strike><li>Find good background color theme/combo</li></strike>
 <li>Fix navbar length</li>
 <li>Change navbar style to vertical</li>
 <li>Make webpage more clean/mininal approach</li>
+<li>Add JS to the site</li>
 <!-- -->
 </div>
 </body>
