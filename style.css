@@ -1,12 +1,14 @@
 
 .ToDo{
   font-family: Arial, Helvetica, sans-serif;
-  color: #fffefe;;
+  color: #fffefe;
+  text-align: center;
   }
   
 .Motivation{
   font-family: Arial, Helvetica, sans-serif;
-  color: #fffefe;;
+  color: #fffefe;
+  text-align: center;
   }
   
   p{
@@ -22,6 +24,7 @@ color: #fffefe
     text-align: center;
     font-size: 20px;
     color: #fffefe;
+    margin-top: 200px;
     }
 
 .awards{
@@ -35,12 +38,16 @@ color: #fffefe
   align-content: justify;
   position: absolute;
   left: 35%;
- 
 }
 
-.interests{
+ul{
   margin-bottom: 35px;
   color: #fffefe;
+  text-align: left;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
 }
 
 /* Icon Styling */
@@ -81,9 +88,10 @@ color: #fffefe
 #Technology{
   text-decoration: none;
   margin-top: 800px;
-  text-align: center;
   margin-bottom: 50px;
   color: #fffefe;
+  font-size: 20px;
+  text-align: center;
 }
 
 #Learning{

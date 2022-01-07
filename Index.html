@@ -36,33 +36,32 @@ body{
     </div>
  
 <div id="Technology">
-  Here are some technologies that i am familar with
+  <h1>Technologies that i am familar with...</h1>
   <li>HTML/CSS (shocker)</li>
   <li>Python</li>
   <li>C++/C#</li>
   <li>SQL/MYSQL</li>
 </div>
 
-<div id= "Learning">
+<div><center>
   <h1>Technologies that I am currently learning...</h1>
-  <li>Javascript</li>
-  <li>Java</li>
-  </div>
+  <p id= "Learning" style="display: none;"> Javascript and Java </p>
+  <button type="button" onclick="document.getElementById('Learning').style.display='block'"> Click here</button>
+  </div></center>
 
-  <div id= "Planning">
-    <h1>Technologies that I plan on learning this year...</h1>
-    <li>vue.js</li>
-    <li>jQuery</li>
-    <li>React</li>
-    <li>AngularJS </li>
-    </div>
+  <div><center>
+  <h1>Technologies that I plan on learning this year...</h1>
+  <p id= "Planning" style="display: none">vue.js, jQuery, React and AngularJS </p>
+    <button type="button" onclick="document.getElementById('Planning').style.display='block'"> Click here </button>
+  </div></center>
   
   <!-- div containing a list of all courses i completed at Kent State -->
   <div class = "eduText"
   <p> Kent State Graduate(2021) -Bachelor of Science in Computer Science</p>
-  <center> <img src= "kent.jpg"></center>          
+  <center> <img src= "kent.jpg">        
               
-  <H4>Here is a list of completed courses</H4>
+  <H1>Completed courses</H1>
+  <ul>
   <li>Algorithms</li>
   <li>Big Data Analytics</li>
   <li>Capstone Project</li>
@@ -83,18 +82,22 @@ body{
   <li>Software Engineering</li>
   <li>Web Programming</li>
   <br>
+</ul></center>
   </div>
          
   <!-- Div containing academic awards-->
-  <br><div class="awards">
-  <h4> Academic Awards  </h4>
+  <br><div class="awards"><center>
+  <h1> Academic Awards  </h1>
+  <ul>
   <li>Achieved Dean's List (fall 2020)</li>
   <li>Achieved President's List (spring 2021)</li>
   <br>
+  </ul></center>
   </div>
 
-  <div class="interests"> 
+  <div class="interests"> <center>
    <h1> Interests</h1>
+   <ul>
    <li>Programming &#128512</li>
    <li>Fitness &#128170</li>
    <li>Disc Golf/ Golf &#127948</li>
@@ -103,16 +106,13 @@ body{
    <li>Hiking/Nature &#127795</li>
    <li>Music &#127925</li>
    <li>Football/Basketball &#127944 &#127936</li>   
-   </div>
-
-<!-- Motivation -->
-<div class= "Motivation">
-  <h2> Motivation</h2>
-</div>
+  </ul> 
+  </div></center>
 
 <!-- to do list for this site-->
-<div class="ToDo">
+<div class="ToDo"><center>
 <h1>To do list</h1>
+<ul>
 <li>Motivation</li>
 <li>Contact info</li>
 <li>Projects</li>
@@ -126,7 +126,8 @@ body{
 <li>Change navbar style to vertical</li>
 <li>Make webpage more clean/mininal approach</li>
 <li>Add JS to the site</li>
+</ul>
 <!-- -->
-</div>
+</div></center>
 </body>
     </html>
