@@ -115,3 +115,22 @@ html{
   scroll-behavior: smooth;
 }
 
+.waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.waves svg {
+  position: relative;
+  display: block;
+  width: calc(132% + 1.3px);
+  height: 55px;
+}
+
+.waves.shape-fill {
+  fill: #eec6c6;
+}
